@@ -5,10 +5,10 @@ except ImportError:
 
 __version_info__ = {
     'major': 0,
-    'minor': 4,
-    'micro': 4,
+    'minor': 5,
+    'micro': 1,
     'releaselevel': 'final',
-    'serial': 0
+    'serial': 1
 }
 
 
@@ -23,3 +23,5 @@ def get_version(release_level=True):
 
 
 __version__ = get_version()
+__author__ = 'Justin Quick <justquick@gmail.com>'
+default_app_config = 'actstream.apps.ActstreamConfig'

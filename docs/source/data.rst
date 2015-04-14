@@ -5,7 +5,7 @@ Adding Custom Data to your Actions
 
 As of v0.4.4, django-activity-stream now supports adding custom data to any Actions you generate.
 This uses a ``data`` JSONField on every Action where you can insert and delete values at will.
-This behavior is disabled by default but just set ``ACTSTREAM_USE_JSONFIELD`` to ``True`` in your
+This behavior is disabled by default but just set ``ACTSTREAM_SETTINGS['USE_JSONFIELD'] = True`` in your
 settings.py to enable it.
 
 .. note::
